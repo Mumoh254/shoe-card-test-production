@@ -10,6 +10,7 @@
     width: 100%;
    
     padding: 25px 0;
+    position: relative;
 
   
 }
@@ -127,6 +128,20 @@
 }
 
 
+.products_star   i  {
+    color: green;
+}
+
+.price .del{
+
+}
+ .span {
+    color: red;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+}
+
 /* Mobile view (up to 767px wide) */
 
 @media (min-width: 320px) and (max-width: 480px)
@@ -173,5 +188,97 @@
 }
 
 
+
+/* Product info styling */
+.product-info {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 3px;
+}
+
+/* Product name and price styling */
+.product-name {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product-price {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Discount badge styling */
+.discount-badge {
+    display: inline-block;
+    background-color: red;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+}
+
+
+
+/* Social Icons */
+.social-icons {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    z-index: 1000; /* High z-index to appear on top */
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.social-icons .icon {
+    margin: 0 10px;
+    cursor: pointer;
+  
+}
+
+.social-icons .icon img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+ 
+}
+
+.social-icons .icon img:hover {
+    transform: scale(1.2);
+}
+
+/* Responsive Styles */
+
+/* Mobile View (up to 767px wide) */
+@media (max-width: 767px) {
+    .social-icons {
+        padding: 8px 0;
+    }
+
+    .social-icons .icon img {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+/* Tablet View (768px to 1024px wide) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .social-icons {
+        padding: 10px 0;
+    }
+
+    .social-icons .icon img {
+        width: 28px;
+        height: 28px;
+    }
+}
 
 
