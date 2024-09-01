@@ -119,7 +119,10 @@
     color: white;
 }
 
-
+.fa-shoe-prints{
+    font-weight: 300;
+    font-size: 10px;
+}
 
 .products_star   i  {
     color: green;
