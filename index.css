@@ -145,6 +145,11 @@ body{
 
 }
 
+.flex-icons{
+    display: flex;
+    flex-direction: column;
+}
+
 /* Mobile view (up to 767px wide) */
 
 
@@ -529,8 +534,12 @@ body{
     }
 
     .social-icon {
-        font-size: 2em  !important; /* Smaller icon size */
+        font-size: 0.4em  !important; 
+        /* Smaller icon size */
+        display: flex;
+      
     }
+  
 
     .subscribe-form {
         flex-direction: column; /* Stack form elements */
